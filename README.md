@@ -1,6 +1,6 @@
 # rs-sensors
 
-A terminal UI (TUI) sensor monitor in Rust, built on top of [libsensors](https://github.com/meitamas/libsensors) — the same library used by the `sensors` utility from the `lm-sensors` package.
+A terminal UI (TUI) sensor monitor in Rust, built on top of [libsensors](https://github.com/lm-sensors/lm-sensors) — the same library used by the `sensors` utility from the `lm-sensors` package.
 
 It shows temperatures, fans, voltages, power, current, energy, and humidity in real time (refreshed every second), with color-coded status indicators (OK / WARN / ALARM) and a graphical bar for temperatures.
 
